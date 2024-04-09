@@ -6,7 +6,7 @@
 |상|||
 |:---|:---:|---:|
 |중|내용2|내용3|
-|하|내용2|내용3|
+|하|![js](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)||
 
 <!--
 **J-sh1/J-sh1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

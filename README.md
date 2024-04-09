@@ -3,8 +3,10 @@
 특히, 백엔드 개발에 대한 관심과 열정을 가지고 있습니다. 코딩을 통해 지식을 확장하고 새로운 기술을 습득하는 것에 큰 흥미를 느끼며,
  빠른 학습 능력을 통해 더 나은 백엔드 개발자로 성장하고자 합니다.
 
-|:---|:---:|---:|
-|상|![스프링](https://github.com/J-sh1/J-sh1/assets/157351643/f1ac23fe-aa10-4e4e-ae0c-106afb204538)||
+|왼쪽 정렬|가운데 정렬|오른쪽 정렬| 
+|:---|:---:|---:| 
+|내용1|내용2|내용3| 
+|내용1|내용2|내용3| 
 
 <!--
 **J-sh1/J-sh1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

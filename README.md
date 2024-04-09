@@ -5,9 +5,9 @@
 
 |왼쪽 정렬|가운데 정렬|오른쪽 정렬| 
 |:---|:---:|---:| 
-|내용1|내용2|내용3| 
-|내용1|내용2|내용3| 
-
+|상|내용2|내용3| 
+|중|내용2|내용3| 
+|하|내용2|내용3|
 <!--
 **J-sh1/J-sh1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

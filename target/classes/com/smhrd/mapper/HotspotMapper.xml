@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.smhrd.mapper.HotspotMapper">
+
+<resultMap id="hotResultMap" type="com.smhrd.entity.Hotspot_info">
+    <id column="id" property="id" />
+    <!-- Add other mappings here -->
+</resultMap>
+
+
+<select id="getHotspotInfo" resultType="com.smhrd.entity.Hotspot_info">
+	SELECT * FROM HOTSPOT_INFO ORDER BY HOTSPOT_IDX ASC 
+</select>
+
+<select id="graph" resultType="com.smhrd.entity.Hotspot_info">
+	SELECT DISTINCT HOTSPOT_NAME FROM HOTSPOT_INFO
+</select>
+
+<select id="juno" resultType="com.smhrd.entity.Hotspot_info">
+	SELECT * FROM HOTSPOT_INFO 
+	WHERE HOTSPOT_NAME = #{hotspot1} OR HOTSPOT_NAME = #{hotspot2} OR HOTSPOT_NAME = #{hotspot3} OR HOTSPOT_NAME = #{hotspot4} OR HOTSPOT_NAME = #{hotspot5}
+</select>
+
+<select id="hot" resultMap="hotResultMap">
+    SELECT * FROM HOTSPOT_INFO
+    WHERE HOTSPOT_IDX = #{idx}
+</select>
+
+
+
+</mapper>

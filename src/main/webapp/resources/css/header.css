@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 0.7vw;
+}
+nav{
+	margin : 0 !important;
+	padding : 0 !important;	
+}
+.logo {
+  width: 6.16vw;
+  height: 2.4vh; /* 높이를 vh 단위로 설정 */
+  background: url("/controller/resources/board/g_capLogo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain; /* 이미지가 요소의 크기에 맞게 조절되도록 설정 */
+  opacity: 1;
+  position: absolute;
+  top:43.43%; /* 중앙 배치를 위해 */
+  left: 17.41vw;
+  }
+  
+
+
+.top_bar1 {
+  width: 100vw;
+  height: 8.43vh;
+  background: url("../images/v87_8.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.top_bar2 {
+  width: 100vw;
+  height: 8.43vh;
+  background-color: rgba(255, 190, 152);
+}
+
+.tour_course {
+  width: 15.83vw;
+  color: rgb(255, 255, 255);
+  height: calc(15.33vw * 43 / 294); /* 세로 길이를 가로 길이와 비율을 유지하도록 설정 */
+  position: absolute;
+  top: calc((8.43vh - (15.33vw * 43 / 294))/2);
+  left: 27.92vw; /* X값 536 in 1920p */
+
+  font-family: NanumSquare Neo OTF;
+  font-weight: Regular;
+
+  /* 폰트 크기와 패딩 값 설정 */
+  font-size: calc(28 / 1920 * 100vw);
+
+  /* 패딩 값 계산: 버튼 높이의 절반에서 폰트 크기의 절반을 뺀 값을 상하 패딩으로 적용 */
+  padding: calc((calc(15.73vw * 43 / 294) / 2) - (calc(28 / 1920 * 100vw) / 2));
+
+  opacity: 1;
+}
+
+.tour_info {
+  width: 15.31vw;
+  color: rgb(255, 255, 255);
+  height: calc(15.33vw * 43 / 294); /* 세로 길이를 가로 길이와 비율을 유지하도록 설정 */
+  position: absolute;
+  top: calc((8.43vh - (15.33vw * 43 / 294))/2);
+  left: 43.99vw; /* X값 845 in 1920p */
+  font-family: NanumSquare Neo OTF;
+  font-weight: Regular;
+
+  /* 폰트 크기와 패딩 값 설정 */
+  font-size: calc(28 / 1920 * 100vw);
+
+  /* 패딩 값 계산: 버튼 높이의 절반에서 폰트 크기의 절반을 뺀 값을 상하 패딩으로 적용 */
+  padding: calc((calc(15.73vw * 43 / 294) / 2) - (calc(28 / 1920 * 100vw) / 2));
+
+  opacity: 1;
+}
+
+.myPage {
+  width: 13vw;
+  color: rgb(255, 255, 255);
+  height: calc(15.33vw * 43 / 294); /* 세로 길이를 가로 길이와 비율을 유지하도록 설정 */
+  position: absolute;
+  top: calc((8.43vh - (15.33vw * 43 / 294))/2);
+  left: 59.53vw; /* X값 1143 in 1920p */
+  
+
+  font-family: NanumSquare Neo OTF;
+  font-weight: Regular;
+
+  /* 폰트 크기와 패딩 값 설정 */
+  font-size: calc(28 / 1920 * 100vw);
+
+  /* 패딩 값 계산: 버튼 높이의 절반에서 폰트 크기의 절반을 뺀 값을 상하 패딩으로 적용 */
+  padding: calc((calc(15.73vw * 43 / 294) / 2) - (calc(28 / 1920 * 100vw) / 2));
+
+  opacity: 1;
+}
+
+.login {
+    width: 15.73vw;
+    color: rgb(255, 255, 255);
+    height: calc(15.33vw * 43 / 294); /* 세로 길이를 가로 길이와 비율을 유지하도록 설정 */
+    position: absolute;
+    top: calc((8.43vh - (15.33vw * 43 / 294))/2);
+    left: 72.71vw; /* X값 1396 in 1920p */
+   
+    font-family: NanumSquare Neo OTF;
+    font-weight: Regular;
+  
+    /* 폰트 크기와 패딩 값 설정 */
+    font-size: calc(28 / 1920 * 100vw);
+  
+    /* 패딩 값 계산: 버튼 높이의 절반에서 폰트 크기의 절반을 뺀 값을 상하 패딩으로 적용 */
+    padding: calc((calc(15.73vw * 43 / 294) / 2) - (calc(28 / 1920 * 100vw) / 2));
+  
+    opacity: 1;
+}

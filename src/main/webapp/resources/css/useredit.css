@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.v81_2 {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(247,231,220,1), rgba(246,241,237,1));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    color: #54130F;
+}
+
+.v81_3 {
+    width: 100%;
+    max-width: 800px;
+    background: url("../images/v81_3.png") center/cover no-repeat;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 0 auto 20px; /* 위, 아래는 0, 좌우는 자동으로 가운데 정렬 */
+    text-align: center;
+    font-size: 22px;
+    font-weight: 800;
+    color: #54130F;
+}
+
+.v81_6 input[type="text"],
+.v81_6 input[type="password"],
+.v81_6 input[type="date"] {
+    width: 100%;
+    height: 42px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 1px solid #ffdab9;
+    box-sizing: border-box;
+    font-size: 22px;
+    max-width: 300px;
+    background-color: rgba(246, 241, 237, 1);
+    text-align: center;
+    color: #54130F;
+}
+
+.v81_6 {
+    width: 100%;
+    display: flex; /* 자식 요소를 플렉스 박스로 설정하여 수평 정렬 */
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+    flex-direction: column; /* 자식 요소들을 세로로 정렬 */
+    margin-bottom: 20px;
+    font-weight: 800;
+    color:#54130F;
+}
+
+
+.v81_6 input[type="password"]:focus,
+.v81_6 input[type="text"]:focus 
+.v81_6 input[type="date"]:focus {
+    outline: none;
+    border-color: #54130F;
+    transition: background-color 0.5s, color 0.5s;
+}
+.v81_6 input[type="text"]::placeholder,
+.v81_6 input[type="password"]::placeholder,
+.v81_6 input[type="date"]::placeholder{
+    font-size: 22px; /* 플레이스홀더 텍스트의 크기를 조정합니다. */
+    text-align: center;
+    color: #54130F; /* 플레이스홀더 텍스트의 색상을 변경합니다. */
+    font-weight: 800;
+}
+
+
+.v81_20 {
+    width: 60%;
+    max-width: 400px;
+    margin-top: 80px;
+}
+
+.v81_21,
+.v81_24 {  
+    display: flex;
+    /* 부모 요소를 플렉스 박스로 설정 */
+    justify-content: space-between; /* 자식 요소 사이의 간격을 최대한으로 벌립니다. */
+    margin-bottom: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.v81_21 {
+    display: flex;
+    justify-content: center; /* 가운데 정렬 */
+}
+
+.v81_21 button {
+    margin: 0 30px; /* 각 버튼 사이의 마진을 설정합니다. */
+}
+
+.v81_21 button,
+.v81_24 button {
+    width: 100%;
+    height: 32px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgba(246, 241, 237, 1);
+    border: 1px solid #ffdab9;
+    color: #54130F;
+    font-weight: 800;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: 800;
+    transition: background-color 0.5s ease;
+    justify-content: space-between; /* 또는 space-around 또는 space-evenly */
+}
+
+.v81_21 button:hover,
+.v81_24 button:hover {
+    background-color: #ffdab9;
+    color: #54130F;
+}
+
+.v81_7,
+.v81_9 {
+    display: block; /* 블록 요소로 변경하여 수직 가운데 정렬을 적용 */
+    text-align: center; /* 가운데 정렬 */
+    margin: 40px auto 10px;
+}
+
+.v81_8 {
+    margin-bottom: 90px; /* 현재 위치보다 위쪽으로 이동할 여백을 지정합니다. */
+    font-size: 32px;
+}
+
+.form-name {
+    margin-right: 80px; /* 오른쪽 마진을 조정하여 form-name 태그들 간의 간격을 벌립니다 */
+    text-align: left;
+      
+}
+
+.form-control {
+    margin-left: 80px; /* 왼쪽 마진을 조정하여 form-control 태그들 간의 간격을 벌립니다 */
+    margin-top: 10px; /* 입력 필드를 아래쪽으로 내리는 마진을 추가합니다 */
+}
+
+.v81_6 td {
+    border-bottom: 1px solid #ffdab9; /* 각 <td> 태그 아래에 1px 두께의 실선을 추가합니다. */
+    padding-bottom: 5px; /* 각 <td> 태그 아래에 여백을 추가하여 간격을 벌립니다. */
+}

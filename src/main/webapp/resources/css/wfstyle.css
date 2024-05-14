@@ -1,0 +1,125 @@
+@charset "UTF-8";
+ 
+        /* 기본 테이블 스타일 */
+#weatherTable {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0;
+}
+
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+th, td {
+    padding: 8px 4px; /* 셀 안의 상하 여백을 유지하고 좌우 여백을 줄임 */
+}
+
+
+#weatherTable th, #weatherTable td {
+    padding: 4px 5px; /* 좌우 padding을 줄임 */
+    font-size: 15px; /* 폰트 크기 유지 */
+}
+
+.popup {
+        position: fixed; /* 팝업을 화면에 고정시킵니다. */
+        top: 50%; /* 화면의 중앙에 위치하도록 설정합니다. */
+        left: 50%; /* 화면의 중앙에 위치하도록 설정합니다. */
+        transform: translate(-50%, -50%); /* 정확한 중앙 정렬을 위해 설정합니다. */
+        z-index: 1000; /* 다른 요소들 위에 나타나도록 z-index 값을 높입니다. */
+        background-color: white; /* 배경색을 지정합니다. */
+        padding: 20px; /* 패딩을 추가합니다. */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 팝업에 그림자 효과를 추가합니다. */
+        border-radius: 5px; /* 팝업 모서리를 둥글게 처리합니다. */
+         max-height: 80%; /* 팝업창의 최대 높이를 화면 높이의 80%로 설정 */
+    overflow-y: auto; /* 세로 스크롤바가 필요할 때만 나타나도록 설정 */
+    }
+        
+ #showPopup {
+    background-color: #FFF3E0; /* Light orange background */
+    color: #5C3312; /* Dark brown text */
+    border: 2px solid #FFA07A; /* Slightly darker orange border */
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px 20px; /* Top/bottom and left/right padding */
+    font-size: 16px; /* Text size */
+    cursor: pointer; /* Hand cursor on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    outline: none; /* Remove the default focus highlight */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+#showPopup:hover {
+    background-color: #FFCBA4; /* Slightly lighter orange background on hover */
+    border-color: #FFB077; /* Lighter border color on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Larger shadow for depth when hovered */
+}
+        
+
+/* 테이블 헤더 스타일 */
+#weatherTable th {
+    background-color: #FFF3E0; /* 연한 오렌지 배경색 */
+    color: #5C3312; /* 어두운 갈색 텍스트 */
+    border: 2px solid #FFA07A; /* 경계선 색 */
+    border-radius: 0px; /* 둥근 모서리 */
+    padding: 10px 20px; /* 패딩 */
+    font-size: 16px; /* 폰트 크기 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 그림자 효과 */
+}
+
+/* 테이블 행 스타일 */
+#weatherTable tr:nth-child(even) {
+    background-color: #f2f2f2; /* 짝수 줄에 대한 배경색 */
+}
+
+#weatherTable tr:nth-child(odd) {
+    background-color: #fcfcfc; /* 홀수 줄에 대한 배경색 */
+}
+
+#weatherTable td {
+    border-bottom: 1px solid #e0e0e0; /* 연한 회색 경계선 */
+}
+
+/* 추가된 스타일 */
+#weatherTable {
+    margin-top: 20px; /* 상단 여백 */
+    border-collapse: separate;
+    border-spacing: 0; /* 셀 사이의 간격을 없앰 */
+}
+        
+.popup::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5; /* 스크롤바 배경색 */
+}
+
+.popup::-webkit-scrollbar-thumb {
+    background-color: #FFD1AA; /* 스크롤바 썸(움직이는 부분) 색상 */
+    border-radius: 10px;
+    border: 2px solid #F5F5F5; /* 썸의 경계선 색 (스크롤바 배경색과 같게) */
+}
+
+.popup::-webkit-scrollbar-track {
+    background-color: #F5F5F5; /* 스크롤바 트랙(배경) 색상 */
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); /* 트랙 내부에 그림자 효과 */
+}
+
+.close-popup {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: #FFD1AA;
+        color: #5C3312;
+        border: none;
+        border-radius: 10px;
+        padding: 5px 10px;
+        cursor: pointer;
+        font-size: 0.8em;
+    }
+
+    .close-popup:hover {
+        background-color: #FFCBA4;
+    }
+        

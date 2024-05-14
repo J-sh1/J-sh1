@@ -1,0 +1,265 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+body , html {
+  font-size: 14px;
+  padding : 0%;
+  margin : 0%;
+}
+.main {
+  width: 100vw;
+  height: 100vh; 
+  align-self: center;
+  justify-items: center;
+  overflow: hidden;
+  margin: 0%;
+  padding: 0%;
+  text-align: center; /* 세로 중앙 정렬을 위해 추가 */
+  background: linear-gradient(rgba(247,231,220,1), rgba(246,241,237,1));
+}
+
+.main_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  flex-direction: column;
+}
+table {
+
+  width: auto;
+  height: 60vh; /* 테이블 너비를 내용에 맞게 자동으로 설정 */
+  margin-left: auto; /* 테이블을 가로로 중앙으로 정렬하기 위해 왼쪽 마진을 자동으로 설정 */
+  margin-right: auto;
+  margin-top: 50px auto 0;
+  border-collapse: collapse; /* 테이블 셀 경계를 합침 */
+
+  
+
+}
+
+
+td{
+  border-bottom: 1.5px solid #ffbe98; /* 테이블의 모든 셀의 하단에 선을 추가 */
+}
+table tr:last-child td {
+  border-bottom: none; /* 마지막 행의 셀 하단 선을 제거합니다. */
+}
+
+
+
+.id_td {
+  width: 100%;
+  color: rgba(84,19,15,1);
+  /* position: absolute;
+  top: 182px;
+  left: 0px; */
+  font-family: NanumSquare Neo OTF;
+  font-weight: ExtraBold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.input_Id {
+  width: 420px;
+  color: rgba(84,19,15,1);
+  /* position: absolute;
+  top: 182px;
+  left: 70px; */
+  font-family: NanumSquare Neo OTF;
+  font-weight: ExtraBold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.userInfo_H {
+  width: 100%;
+  margin-bottom: 10%;
+  color: rgba(84,19,15,1);
+  /* position: absolute;
+  top: 0px;
+  left: 153px; */
+  font-family: NanumSquare Neo OTF;
+  font-weight: ExtraBold;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.initial_date_input {
+  width: 420px;
+  color: rgba(84,19,15,1);
+  /* position: absolute;
+  top: 237px;
+  left: 70px; */
+  font-family: NanumSquare Neo OTF;
+  font-weight: ExtraBold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.nick {
+  width: 194px;
+  color: rgba(84,19,15,1);
+  /* position: absolute;
+  top: 293px;
+  left: 0px; */
+  font-family: NanumSquare Neo OTF;
+  font-weight: ExtraBold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.nick_input {
+  width: 420px;
+  color: rgba(84,19,15,1);
+  /* position: absolute;
+  top: 293px;
+  left: 70px; */
+  font-family: NanumSquare Neo OTF;
+  font-weight: ExtraBold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+
+.initial_date {
+  width: 194px;
+  color: rgba(84,19,15,1);
+  /* position: absolute;
+  top: 237px;
+  left: 0px; */
+  font-family: NanumSquare Neo OTF;
+  font-weight: ExtraBold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.favorit1 {
+  width: 194px;
+  color: rgba(84,19,15,1);
+  /* position: absolute;
+  top: 348px;
+  left: 0px; */
+  font-family: NanumSquare Neo OTF;
+  font-weight: ExtraBold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.favorita1_input {
+  width: 420px;
+  color: rgba(84,19,15,1);
+  /* position: absolute;
+  top: 348px;
+  left: 70px; */
+  font-family: NanumSquare Neo OTF;
+  font-weight: ExtraBold;
+  font-size: 22px;
+  opacity: 1;
+  text-align: center;
+}
+hr {
+ 
+  border: none; 
+  /* 기본 테두리 제거 */
+  border-top: 1px solid #ffbe98; /* 원하는 스타일의 테두리 설정 */
+  width: 100%; /* 가로 너비 100%로 설정하여 부모 요소에 맞춤 */
+  margin: 10px 0; /* 원하는 여백 설정 */
+
+
+}
+.favorita_td2 {
+  /* width: 194px;
+  color: rgba(84,19,15,1);
+  position: absolute;
+  top: 403px;
+  left: 0px; */
+  font-family: NanumSquare Neo OTF;
+  font-weight: ExtraBold;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+.fovorita2_input{
+  width: 420px;
+  color: rgba(84,19,15,1);
+  /* position: absolute;
+  top: 403px;
+  left: 70px; */
+  font-family: NanumSquare Neo OTF;
+  font-weight: ExtraBold;
+  font-size: 22px;
+  opacity: 1;
+  text-align: center;
+}
+.line {
+  /* width: 726px;
+  height: 1px;
+  background: linear-gradient(rgba(253,180,130,1), rgba(249,129,119,1));
+  opacity: 1;
+  position: absolute;
+  top: 449px;
+  left: 0px;
+  */
+} 
+
+
+button { 
+  width: 10vw;
+  text-align: center; /* 버튼 안의 텍스트를 가운데 정렬 */
+  padding: 3%;
+  display: flex;
+  justify-content: center; /* 가로 방향 가운데 정렬 */
+  margin-top: 20px; /* 버튼과 테이블 사이의 간격 조정 */
+  flex-direction: row;
+  background: transparent;
+  border: 1px solid #ffbe98;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+
+button:hover {
+
+  background-color: #ffbe98;
+  color: #734124;
+
+}
+
+.btn_out, .btn_edt, .btn_bye {
+  margin: 10px; 
+ 
+  overflow: hidden;
+  flex-grow: 1; /* 각 버튼이 동일한 너비를 가지도록 설정 */
+  margin: 10% 10% /* 버튼 사이의 간격 설정 */
+  
+}
+td {
+  width: 35%; /* 각 td 요소의 너비를 25%로 설정하여 동일한 너비를 갖게 함 */
+}
+
+input {
+  background: transparent;
+  border : none;
+}
+
+thead {
+  margin-bottom: 2px; /* thead와 나머지 td 사이의 간격을 조절 */
+}
+
+td {
+  margin-top: 10px; /* 나머지 td들 사이의 간격을 조절 */
+}
+input::placeholder {
+
+  color: rgba(84,19,15,1);
+  font-size: 20px;
+
+} 

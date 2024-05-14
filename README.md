@@ -69,7 +69,7 @@
 <br>
 
 
-### 2). 프로젝트 명: 다마고치 키우기
+### 2). 프로젝트 명: mini1(다마고치 키우기)
 
 **내용**
 - 이 프로젝트는 MVC(Mode-View-Controller) 패턴과 JDBC(Java Database Connectivity)를 활용하여 다마고치를 키우는 게임을 만드는 것을 목표로 합니다.

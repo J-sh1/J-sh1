@@ -17,6 +17,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black)
 ![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-239120?style=for-the-badge&logo=css3&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
 ### 하
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
@@ -65,7 +66,7 @@
 **느낀 점**
 - 프로젝트를 통해 배운 것들을 다음 프로젝트나 협업에서 더욱 효과적으로 활용할 수 있도록 노력하겠습니다. 소통과 깃허브 사용에 대한 능력을 높이는 것이 향후 프로젝트의 성공에 중요한 역할을 할 것이라고 느꼈습니다.
 </details>
-
+<br>
 
 
 ### 2). 프로젝트 명: 다마고치 키우기

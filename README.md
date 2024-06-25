@@ -26,40 +26,10 @@
 
 ### 1). 프로젝트 명: 윌리를찾아라(PAR(Pedestrian-Attribute-Recognition) 기반 CCTV 영상 속 인상착의를 통한 실종자 찾기)
 
-**내용**
 
-
-### 프로젝트명: 윌리를찾아라(PAR(Pedestrian-Attribute-Recognition) 기반 CCTV 영상 속 인상착의를 통한 실종자 찾기)
-
-<details>
-<summary>상세보기</summary>
 
 **프로젝트 참여자**
 - 조승혁, 김자영, 박덕근, 이대길, 안영빈
-
-**기술**
-
-| 프레임워크 | 프론트엔드 | 백엔드 프로그래밍 <br> 언어 | 웹 서버 | 데이터베이스 | 버전 관리 |
-|------------|------------|----------------------------|---------|--------------|------------|
-| ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) | ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white) | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) | ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white) |
-
-### 기타 기술 스택
-
-- **외부 API**: 
-  - ![KakaoMap](https://img.shields.io/badge/KakaoMap-FFCD00?style=for-the-badge&logo=kakaotalk&logoColor=black)
-  - ![DALL-E 3](https://img.shields.io/badge/DALL--E_3-000000?style=for-the-badge&logo=openai&logoColor=white)
-  - ![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
-- **모델링 및 이미지 처리**:
-  - ![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logoColor=black)
-  - ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-  - ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-
-**활용**
-
-**역량**
-
-**배우고 느낀점**
-
 
 # 프로젝트명(팀명:윌리를 찾아라)
 윌리를 찾아라👕👖- PAR(Pedestrian-Attribute-Recognition) 기반 CCTV 영상 속 인상착의를 통한 실종자 찾기🎥
@@ -88,6 +58,35 @@
 6. CCTV 위치를 기반으로 실종자 위치로 이동하여 찾음
 7. 부가적인 기능으로 인상착의 정보로 생성형 AI를 사용하여 포스터 생성
 8. 다른 사용자가 포스터 사진으로 위치 제보 가능
+
+<details>
+<summary>상세보기</summary>
+
+**기술**
+
+| 프레임워크 | 프론트엔드 | 백엔드 프로그래밍 <br> 언어 | 웹 서버 | 데이터베이스 | 버전 관리 |
+|------------|------------|----------------------------|---------|--------------|------------|
+| ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) | ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white) | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) | ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white) |
+
+### 기타 기술 스택
+
+- **외부 API**: 
+  - ![KakaoMap](https://img.shields.io/badge/KakaoMap-FFCD00?style=for-the-badge&logo=kakaotalk&logoColor=black)
+  - ![DALL-E 3](https://img.shields.io/badge/DALL--E_3-000000?style=for-the-badge&logo=openai&logoColor=white)
+  - ![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
+- **모델링 및 이미지 처리**:
+  - ![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logoColor=black)
+  - ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+  - ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+
+**활용**
+
+**역량**
+
+**배우고 느낀점**
+
+
+
 
 ## 시스템 아키텍처
 ![시스템 아키텍처](/assets/image.png)

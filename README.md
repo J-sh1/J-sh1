@@ -69,7 +69,7 @@
 <br>
 
 
-### 2). 프로젝트 명: mini1(다마고치 키우기)
+### 2). 프로젝트 명: 윌리를찾아라(PAR(Pedestrian-Attribute-Recognition) 기반 CCTV 영상 속 인상착의를 통한 실종자 찾기)
 
 **내용**
 - 이 프로젝트는 MVC(Mode-View-Controller) 패턴과 JDBC(Java Database Connectivity)를 활용하여 다마고치를 키우는 게임을 만드는 것을 목표로 합니다.
@@ -78,12 +78,10 @@
 <summary>상세보기</summary>
 
 **프로젝트 참여자**
-- 백종호, 조승혁, 김동혁
+- 조승혁, 김자영, 박덕근, 이대길, 안영빈
 
 **기술**
-| 프로그래밍 <br> 언어 | 데이터베이스 |
-|-------------------|------------|
-| ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) | ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) |
+
 
 
 **활용**

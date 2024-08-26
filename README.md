@@ -126,6 +126,7 @@
 - 프로젝트 기간
   - 24.05.22 ~ 24.06.20
 
+- [프로젝트 바로가기](https://github.com/J-sh1/final_k18)
 <details>
 <summary>상세보기</summary>
 

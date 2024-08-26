@@ -28,7 +28,6 @@
 
 ### 1). 프로젝트 명: 신록(AI 병충해 진단 및 정보 공유 커뮤니티)
 - 초보 식집사들을 위한 식물 관리 및 병충해 진단 서비스와 정보 공유 커뮤니티
-<hr/>
 
 - 프로젝트 참여자
   - 조승혁, 고원희, 임정윤, 이정훈, 안수현
@@ -64,30 +63,65 @@
 ![서비스 흐름도](https://jsh-1.s3.ap-northeast-2.amazonaws.com/%ED%99%94%EB%A9%B4+%EC%BA%A1%EC%B2%98+2024-08-27+020433.png)
 
 ## 화면구성(시연영상)
-
 [시연 영상 보기](https://jsh-1.s3.ap-northeast-2.amazonaws.com/%EC%8B%9C%EC%97%B0%EC%98%81%EC%83%81.mp4)
 
-
-
 ## 팀원역할
-![팀원역할](/assets/image-2.png)
+![팀원역할](https://jsh-1.s3.ap-northeast-2.amazonaws.com/%ED%99%94%EB%A9%B4+%EC%BA%A1%EC%B2%98+2024-08-27+021438.png)
 
 ## 초기 세팅
+### 1. Front 실행 환경 구성
+#### 프로젝트 설정
+1. VSCode에서 `ShinRok` 폴더를 엽니다.
+2. 터미널에서 다음 명령어를 실행합니다.
+    ```sh
+    cd front
+    npm install
+    nodemon app.js
+    ```
+3. `.env` 파일을 생성하여 보안 관련 코드를 작성합니다.
+
+### 2. Model 실행 환경구성
+#### 프로젝트 설정
+1. VSCode에서 `ShinRok` 폴더를 엽니다.
+2. `Ctrl + Shift + P`를 누르고 `>Python: Select Interpreter`를 선택합니다.
+3. 파이썬 버전을 선택합니다.
+4. 터미널에서 다음 명령어를 실행합니다.
+    ```sh
+    cd model
+    pip install -r requirements.txt
+    python app.py
+    ```
+5. 만약 `pip install` 명령어가 작동하지 않는다면 다음을 수행합니다.
+    - 윈도우 검색창에 시스템 환경 변수 편집을 입력하고 엽니다.
+    - 고급 탭에서 환경 변수를 클릭합니다.
+    - 시스템 변수 목록에서 Path를 찾아 클릭한 후 편집을 클릭합니다.
+    - 새로 만들기를 클릭하고 다음 경로를 추가합니다.
+        ```sh
+        C:\Users\{사용자이름}\AppData\Local\Programs\Python\Python312\Scripts
+        ```
+    - VSCode를 재실행하고 `ShinRok` 폴더를 엽니다.
+    - 터미널에서 해당 명령어를 다시 실행합니다.
+        ```sh
+        cd model
+        pip install -r requirements.txt
+        python app.py
+        ```
+    - 문제가 해결되지 않으면 컴퓨터를 재부팅합니다.
+6. `.env` 파일을 생성하여 보안 관련 코드를 작성합니다.
+7. [모델 다운로드](https://www.dropbox.com/scl/fi/37n03wq9icoxewm88gpyl/model_resnet50.pth?rlkey=oybb4n2mu9wrwkgw1o7o9n9hx&st=5loboqgt&dl=0) 링크를 클릭해서 모델을 설치합니다.
 
 </details>
+<br>
+<br>
 
-### 1). 프로젝트 명: 윌리를찾아라(PAR(Pedestrian-Attribute-Recognition) 기반 CCTV 영상 속 인상착의를 통한 실종자 찾기)
+### 2). 프로젝트 명: 윌리를찾아라👕👖<br>(PAR(Pedestrian-Attribute-Recognition) 기반 CCTV 영상 속 인상착의를 통한 실종자 찾기)
+- 사용자로부터 인상착의 정보를 받아 CCTV영상에서 인상착의 정보와 일치하는 객체를 찾아 실종자를 찾아주는 서비스
 
 
+- 프로젝트 참여자
+  - 조승혁, 김자영, 박덕근, 이대길, 안영빈
 
-**프로젝트 참여자**
-- 조승혁, 김자영, 박덕근, 이대길, 안영빈
-
-# 프로젝트명(팀명:윌리를 찾아라)
-윌리를 찾아라👕👖- PAR(Pedestrian-Attribute-Recognition) 기반 CCTV 영상 속 인상착의를 통한 실종자 찾기🎥
-
-2023 인공지능 개발자과정 18회차 - 스마트인재개발원  
-프로젝트 기간: 24.05.22 ~ 24.06.20
+- 프로젝트 기간: 24.05.22 ~ 24.06.20
 
 <details>
 <summary>상세보기</summary>
@@ -114,45 +148,17 @@
 7. 부가적인 기능으로 인상착의 정보로 생성형 AI를 사용하여 포스터 생성
 8. 다른 사용자가 포스터 사진으로 위치 제보 가능
 
-
-
-**기술**
-
-| 프레임워크 | 프론트엔드 | 백엔드 프로그래밍 <br> 언어 | 웹 서버 | 데이터베이스 | 버전 관리 |
-|------------|------------|----------------------------|---------|--------------|------------|
-| ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) | ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white) | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) | ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white) |
-
-### 기타 기술 스택
-
-- **외부 API**: 
-  - ![KakaoMap](https://img.shields.io/badge/KakaoMap-FFCD00?style=for-the-badge&logo=kakaotalk&logoColor=black)
-  - ![DALL-E 3](https://img.shields.io/badge/DALL--E_3-000000?style=for-the-badge&logo=openai&logoColor=white)
-  - ![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
-- **모델링 및 이미지 처리**:
-  - ![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logoColor=black)
-  - ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-  - ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-
-**활용**
-
-**역량**
-
-**배우고 느낀점**
-
-
-
-
 ## 시스템 아키텍처
-![시스템 아키텍처](/assets/image.png)
+![시스템 아키텍처](https://jsh-1.s3.ap-northeast-2.amazonaws.com/image.png)
 
 ## 서비스 흐름도
-![서비스 흐름도](/assets/image-1.png)
+![서비스 흐름도](https://jsh-1.s3.ap-northeast-2.amazonaws.com/image-1.png)
 
 ## 화면구성(시연영상)
-<video controls src="assets/Demo.mp4" title="시연영상"></video>
+[시연 영상 보기](https://jsh-1.s3.ap-northeast-2.amazonaws.com/%EC%9C%8C%EB%A6%AC%EB%A5%BC%EC%B0%BE%EC%95%84%EB%9D%BC(%EA%B9%80%EC%9E%90%EC%98%81%ED%8C%80)+%EC%8B%9C%EC%97%B0+%EC%98%81%EC%83%81.mp4)
 
 ## 팀원역할
-![팀원역할](/assets/image-2.png)
+![팀원역할](https://jsh-1.s3.ap-northeast-2.amazonaws.com/image-2.png)
 
 ## 초기 세팅
 ### 1. Git 설치 및 사용자 등록

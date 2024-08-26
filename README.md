@@ -34,6 +34,8 @@
  
 - 프로젝트 기간
   - 24.07.22 ~ 24.08.01
+- [프로젝트 바로가기](https://github.com/J-sh1/shinrok) 
+
  <details>
  <summary>상세보기</summary>
  

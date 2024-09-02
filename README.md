@@ -41,13 +41,14 @@
  
 > 프로젝트 기간
 >> 24.07.22 ~ 24.08.01
-
-<div style="width: 200px; border: 1px solid #555; padding: 10px; text-align: center; background-color: #1e1e1e;">
-  <p style="font-size: 14px; color: #ffffff;">프로젝트 바로가기</p>
-  <a href="https://github.com/J-sh1/shinrok">
-    <img src="https://jsh-1.s3.ap-northeast-2.amazonaws.com/%ED%99%94%EB%A9%B4+%EC%BA%A1%EC%B2%98+2024-08-27+020433.png" alt="MyLittleTrip" style="width: 100%;">
+<div border: 1px solid #555; text-align: center;">
+<p style="font-size: 14px; color: #ffffff;">프로젝트 바로가기</p>
+ <a href="https://github.com/J-sh1/shinrok" target="_blank" rel="noopener noreferrer">
+   <img src = "https://jsh-1.s3.ap-northeast-2.amazonaws.com/KakaoTalk_20240722_110615258.png" width = '100px' height = '100px'>
   </a>
 </div>
+
+
 
 - [프로젝트 바로가기](https://github.com/J-sh1/shinrok)
   

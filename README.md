@@ -30,11 +30,27 @@
 - 초보 식집사들을 위한 식물 관리 및 병충해 진단 서비스와 정보 공유 커뮤니티
 
 - 프로젝트 참여자
-  - 조승혁, 고원희, 임정윤, 이정훈, 안수현
+
+| 이름 | 역할 |
+| --- | --- |
+| 조승혁 | Back, Model |
+| 고원희 | PM, Front |
+| 이정훈 | Back |
+| 안수현 | Front |
+| 임정윤 | Back |
  
-- 프로젝트 기간
-  - 24.07.22 ~ 24.08.01
-- [프로젝트 바로가기](https://github.com/J-sh1/shinrok) 
+> 프로젝트 기간
+>> 24.07.22 ~ 24.08.01
+
+<div style="width: 200px; border: 1px solid #555; padding: 10px; text-align: center; background-color: #1e1e1e;">
+  <p style="font-size: 14px; color: #ffffff;">프로젝트 바로가기</p>
+  <a href="https://github.com/J-sh1/shinrok">
+    <img src="https://jsh-1.s3.ap-northeast-2.amazonaws.com/%ED%99%94%EB%A9%B4+%EC%BA%A1%EC%B2%98+2024-08-27+020433.png" alt="MyLittleTrip" style="width: 100%;">
+  </a>
+</div>
+
+- [프로젝트 바로가기](https://github.com/J-sh1/shinrok)
+  
 
  <details>
  <summary>상세보기</summary>

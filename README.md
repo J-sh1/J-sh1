@@ -33,11 +33,11 @@
 
 | 이름 | 역할 |
 | --- | --- |
-| 조승혁 | Back, Model |
-| 고원희 | PM, Front |
-| 이정훈 | Back |
-| 안수현 | Front |
-| 임정윤 | Back |
+| 조승혁 | Back / Model |
+| 임정윤 | DB / Back |
+| 안수현 | Front / Design |
+| 고원희 | PM / Front |
+| 이정훈 | Back / Model |
  
 > 프로젝트 기간
 >> 24.07.22 ~ 24.08.01

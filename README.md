@@ -62,6 +62,27 @@
 ### 2. 프로젝트 명: 윌리를찾아라👕👖<br>(PAR(Pedestrian-Attribute-Recognition) 기반 CCTV 영상 속 인상착의를 통한 실종자 찾기)
 - 사용자로부터 인상착의 정보를 받아 CCTV영상에서 인상착의 정보와 일치하는 객체를 찾아 실종자를 찾아주는 서비스
 
+- 프로젝트 참여자
+
+![팀원역할](https://jsh-1.s3.ap-northeast-2.amazonaws.com/image-2.png)
+
+> 프로젝트 기간
+>> 24.05.22 ~ 24.06.20
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <p align="center">프로젝트 바로가기</p>
+        <a href="https://github.com/J-sh1/shinrok" title="윌리를찾아라 프로젝트 바로가기">
+          <img align="center" src="https://jsh-1.s3.ap-northeast-2.amazonaws.com/KakaoTalk_20240606_182043411-removebg-preview.png" width="150" >
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 - 프로젝트 참여자
   - 조승혁, 김자영, 박덕근, 이대길, 안영빈

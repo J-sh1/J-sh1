@@ -31,13 +31,7 @@
 
 - 프로젝트 참여자
 
-| 이름 | 역할 |
-| --- | --- |
-| 조승혁 | Back / Model |
-| 임정윤 | DB / Back |
-| 안수현 | Front / Design |
-| 고원희 | PM / Front |
-| 이정훈 | Back / Model |
+![팀원역할](https://jsh-1.s3.ap-northeast-2.amazonaws.com/%ED%99%94%EB%A9%B4+%EC%BA%A1%EC%B2%98+2024-08-27+021438.png)
  
 > 프로젝트 기간
 >> 24.07.22 ~ 24.08.01

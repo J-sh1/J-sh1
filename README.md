@@ -2,9 +2,10 @@
 새로운 기술과 지식을 빠르게 익히며, 도전에 대한 호기심과 열정으로 꾸준히 성장하는 개발자입니다. 특히 백엔드 개발에 큰 흥미와 열정을 가지고 있으며, 코딩을 통해 지식을 확장하고 기술을 습득하는 과정을 즐깁니다. <br>
 빠른 학습 능력을 바탕으로, 더 나은 백엔드 개발자가 되기 위해 지속적으로 노력하겠습니다.
 
+# 📚기술스택
 
-## 언어 및 프레임워크
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+>  ## 언어 및 프레임워크
+> ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)<br><br>
@@ -17,16 +18,16 @@
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
 
-## 데이터베이스
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+> ## 데이터베이스
+> ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 
-<br><br>
+<br>
 
 
 
 
-# 경험사항
+# 🙋‍♂️경험사항
 
 <table>
   <tbody>
@@ -49,6 +50,8 @@
     </tr>
   </tbody>
 </table>
+
+<br>
 
 ## 1. 프로젝트 명: 신록(AI 병충해 진단 및 정보 공유 커뮤니티🐛)
 <a name="project-1"></a>
@@ -143,11 +146,10 @@
 🔺🔺🔺🔺🔺🔺🔺🔺 <br>
 **이미지를 클릭 해주세요.**
 
+<br>
 
+# 🏫교육사항
 
-
-# 교육사항
-
-- 2024/06 ~ 2024/09 인공지능사관학교 JS과정 수료예정
+- 2024/06 ~ 2024/09 인공지능사관학교 AI 서비스 Track - 웹 기반 인공지능 TRACK 1 JS과정 수료예정
 - 2023/12 ~ 2024/06 스마트인재개발원 인공지능 융합서비스 개발자과정 18회차 수료
 - 동강대학교/소방안전과 졸업

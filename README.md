@@ -38,7 +38,7 @@
         </a>
       </td>
       <td>
-        <a href="https://github.com/J-sh1/g-cap" title="G-CAP 프로젝트 바로가기">
+        <a href='#3. 프로젝트명: G-CAP (사회적 소외 계층들의 광주에서의 문화/예술 여행 접근성을 높일 수 있는 안내 서비스))' title="G-CAP 프로젝트 바로가기">
           <img align="center" src="https://jsh-1.s3.ap-northeast-2.amazonaws.com/KakaoTalk_20240321_165603981.png" width="150" >
         </a>
       </td>
@@ -46,7 +46,7 @@
   </tbody>
 </table>
 
-
+[서비스소개](#서비스소개)
 
 # 경험사항
 

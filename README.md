@@ -28,29 +28,30 @@
   <tbody>
     <tr>
       <td>
-        <a href="https://github.com/J-sh1/shinrok" title="신록 프로젝트 바로가기">
-          <img align="center" src="https://jsh-1.s3.ap-northeast-2.amazonaws.com/KakaoTalk_20240722_110615258.png" width="150" >
+        <a href="#project-1" title="신록 프로젝트 바로가기">
+          <img align="center" src="https://jsh-1.s3.ap-northeast-2.amazonaws.com/KakaoTalk_20240722_110615258.png" width="150">
         </a>
       </td>
       <td>
-        <a href="https://github.com/J-sh1/final_k18" title="윌리를찾아라 프로젝트 바로가기">
-          <img align="center" src="https://jsh-1.s3.ap-northeast-2.amazonaws.com/KakaoTalk_20240606_182043411-removebg-preview.png" width="150" >
+        <a href="#project-2" title="윌리를찾아라 프로젝트 바로가기">
+          <img align="center" src="https://jsh-1.s3.ap-northeast-2.amazonaws.com/KakaoTalk_20240606_182043411-removebg-preview.png" width="150">
         </a>
       </td>
       <td>
-        <a href='#3. 프로젝트명: G-CAP (사회적 소외 계층들의 광주에서의 문화/예술 여행 접근성을 높일 수 있는 안내 서비스))' title="G-CAP 프로젝트 바로가기">
-          <img align="center" src="https://jsh-1.s3.ap-northeast-2.amazonaws.com/KakaoTalk_20240321_165603981.png" width="150" >
+        <a href="#project-3" title="G-CAP 프로젝트 바로가기">
+          <img align="center" src="https://jsh-1.s3.ap-northeast-2.amazonaws.com/KakaoTalk_20240321_165603981.png" width="150">
         </a>
       </td>
     </tr>
   </tbody>
 </table>
 
-[서비스소개](#서비스소개)
+
 
 # 경험사항
 
 ## 1. 프로젝트 명: 신록(AI 병충해 진단 및 정보 공유 커뮤니티🐛)
+<a name="project-1"></a>
 > 초보 식집사들을 위한 식물 관리 및 병충해 진단 서비스와 정보 공유 커뮤니티
 
 - 프로젝트 참여자
@@ -84,6 +85,7 @@
 <br>
 
 ## 2. 프로젝트 명: 윌리를찾아라👕👖<br>(PAR(Pedestrian-Attribute-Recognition) 기반 CCTV 영상 속 인상착의를 통한 실종자 찾기)
+<a name="project-2"></a>
 > 사용자로부터 인상착의 정보를 받아 CCTV영상에서 인상착의 정보와 일치하는 객체를 찾아 실종자를 찾아주는 서비스
 
 - 프로젝트 참여자
@@ -114,6 +116,7 @@
 <br>
 
 ## 3. 프로젝트명: G-CAP (사회적 소외 계층들의 광주에서의 문화/예술 여행 접근성을 높일 수 있는 안내 서비스)
+<a name="project-3"></a>
 > G-CAP 장애인 및 저소득층을 포함한 소외 계층들을 위한 문화예술 행사의 접근성을 높이기 위해 개발된 대시보드 기반 웹 애플리케이션입니다. 이 플랫폼은 사용자가 다양한 문화예술 행사에 쉽게 접근하고 참여할 수 있도록 지원합니다. 사용자는 로그인, 회원가입 및 회원탈퇴와 같은 회원 관련 기능을 활용할 수 있으며, 행사에 대한 리뷰 작성, 별점 부여, 댓글 작성 등의 기능도 제공됩니다.
 
 

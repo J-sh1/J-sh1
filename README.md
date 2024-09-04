@@ -24,6 +24,30 @@
 
 <br><br>
 
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <a href="https://github.com/J-sh1/shinrok" title="신록 프로젝트 바로가기">
+          <img align="center" src="https://jsh-1.s3.ap-northeast-2.amazonaws.com/KakaoTalk_20240722_110615258.png" width="150" >
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/J-sh1/final_k18" title="윌리를찾아라 프로젝트 바로가기">
+          <img align="center" src="https://jsh-1.s3.ap-northeast-2.amazonaws.com/KakaoTalk_20240606_182043411-removebg-preview.png" width="150" >
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/J-sh1/g-cap" title="G-CAP 프로젝트 바로가기">
+          <img align="center" src="https://jsh-1.s3.ap-northeast-2.amazonaws.com/KakaoTalk_20240321_165603981.png" width="150" >
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
 # 경험사항
 
 ## 1. 프로젝트 명: 신록(AI 병충해 진단 및 정보 공유 커뮤니티🐛)
